@@ -1,0 +1,3 @@
+$ ->
+  $("#motivators").sortable()
+  $("#motivators").disableSelection()
