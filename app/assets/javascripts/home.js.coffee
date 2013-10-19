@@ -1,3 +1,3 @@
 $ ->
-  $("#motivators").sortable()
+  $("#motivators").sortable({ axis: "x" })
   $("#motivators").disableSelection()
