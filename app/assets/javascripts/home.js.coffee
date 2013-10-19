@@ -4,5 +4,8 @@ $ ->
   $( "#motivators" ).on "sortover", (event, ui) ->
     $(ui.item).tooltip("toggle")
 
-  $(".motivator").each (index) ->
-    $(this).tooltip(title: Window.motivatorsDescription[index]) 
+  $("#motivators li").on "mouseleave", ->
+    $("#description").html("Ordene os itens segudo seu entendimento")
+
+  $("#motivators li").on "mouseenter", ->
+    $("#description").html(Window.motivatorsDescription[$(this).data("index")]) 

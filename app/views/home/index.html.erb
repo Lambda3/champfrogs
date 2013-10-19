@@ -21,11 +21,12 @@
   <h1>Vamos testar?</h1>
   <p class="lead">Por favor, ordene os itens abaixo seguindo seu próprio critério pessoal. Este é um teste anônimo, por favor seja o mais sincero consigo mesmo que você conseguir.</p>
 
+  <div class="alert alert-info" id="description">Ordene os itens segudo seu entendimento</div>
+  
   <ul id="motivators">
     <%10.times.each do | index |%>
-      <li><%= image_tag "motiv_#{index+1}.png", class: "motivator"%></li>
+      <li data-index="<%=index%>"><%= image_tag "motiv_#{index+1}.png", class: "motivator"%></li>
     <%end%>
   </ul>
-
-  <a class="btn btn-lg btn-success" id="saveOrder" href="#">Salvar ordem</a>
+  <p class="right"><a class="btn btn-lg btn-success" id="saveOrder" href="#">Salvar ordem</a></p>
 </div>

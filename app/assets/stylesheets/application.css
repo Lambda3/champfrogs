@@ -41,3 +41,11 @@
   display: inline-block;
   float: left;
 }
+
+#description {
+  font-size: 1.5em;
+}
+
+.right {
+  text-align: right;
+}
