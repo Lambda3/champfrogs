@@ -62,3 +62,15 @@ select {
     -webkit-appearance: none;
 }
 #success_message { display: none;}
+
+#ranking {
+ list-style: none;
+}
+
+#ranking img {
+ margin-right: 20px;
+}
+
+#ranking li {
+padding: 20px;
+}
