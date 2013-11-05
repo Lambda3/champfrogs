@@ -49,3 +49,16 @@
 .right {
   text-align: right;
 }
+
+
+select {
+    font-size: 25px;
+	padding: 15px;
+	width: 70%;
+	margin: auto;
+	display: block;
+}
+select {
+    -webkit-appearance: none;
+}
+#success_message { display: none;}
