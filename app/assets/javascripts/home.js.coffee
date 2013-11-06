@@ -8,4 +8,8 @@ $ ->
     $("#description").html("Ordene os itens segudo seu entendimento")
 
   $("#motivators li").on "mouseenter", ->
-    $("#description").html(Window.motivatorsDescription[$(this).data("index")]) 
+    $("#description").html(Window.motivatorsDescription[$(this).data("index")])
+	
+  $(".description").each (index, item) ->
+	  $item = $(item)
+	  $item.text(Window.motivatorsDescription[$item.data("index")])

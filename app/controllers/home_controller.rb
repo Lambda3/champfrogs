@@ -19,8 +19,8 @@ class HomeController < ApplicationController
         result
       end
     @motivators.each { |key, value| @motivators[key] = value / Answer.count.to_f }
-    @motivators = @motivators.to_a.sort { |item1, item2| item2.last <=> item1.last }.
-      map { |item| Answer::MOTIVATOR_DESC[item.first.to_i] }
+    @motivators = @motivators.to_a.sort { |item1, item2| item2.last <=> item1.last }
+    @motivators
   end
 
 end

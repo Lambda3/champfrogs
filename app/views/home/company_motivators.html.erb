@@ -9,8 +9,8 @@
 		 <ul id="ranking">
 		  <% @motivators.each do |motivator| %>
 		  <li>
-			  <%= image_tag "motiv_#{Answer::MOTIVATOR_DESC.index(motivator) + 1}.png", class: "motivator"%>
-			  <%= motivator %>
+			  <%= image_tag "motiv_#{motivator.first.to_i + 1}.png", class: "motivator"%>
+			  <span class="description" data-index="<%= motivator.first %>"></span>
 		  </li>
 		  <% end %>
 	 	 </ul>
