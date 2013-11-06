@@ -8,3 +8,16 @@ Window.motivatorsDescription = [ "Curiosidade: Eu tenho uma porção de coisas p
                "Ordem: Existem regras e políticas suficientes para manter o ambiente estável",
                "Propósito: Meu propósito de vida é refletido no trabalho que faço",
                "Status: Minha posição é boa e reconhecida pelas pessoas que trabalham comigo"]
+			   
+			   
+$('#saveOrder').click ->
+	order = []
+	$("#motivators li").each (index, item) ->
+		order.push($(item).data("index"))
+	$.post '/answers', 
+		user: $("#user").val()
+		ordering: order.join(","),
+		success: ->
+			$("#data-input").remove()
+			$("#success_message").show()
+			$('#myModal').modal('hide')

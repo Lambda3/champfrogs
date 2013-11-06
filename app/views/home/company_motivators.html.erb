@@ -1,0 +1,20 @@
+
+<div class="jumbotron">
+  <h1>A cultura da Lambda3</h1>
+  <p class="lead"></p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-16">
+		 <ul id="ranking">
+		  <% @motivators.each do |motivator| %>
+		  <li>
+			  <%= image_tag "motiv_#{motivator.first.to_i + 1}.png", class: "motivator"%>
+			  <span class="description" data-index="<%= motivator.first %>"></span>
+		  </li>
+		  <% end %>
+	 	 </ul>
+	  </div>
+    </div>
+  </div>
+</div>
