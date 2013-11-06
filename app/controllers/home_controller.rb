@@ -11,16 +11,15 @@ class HomeController < ApplicationController
   end
   
   def company_motivators    
+    sum_points = -> (result, (item, points)) { result[item] ||= 0 ; result[item] += points ; result }
+    average_points = -> (result, (key, value)) { result[key] = value / Answer.count.to_f ; result }
     @motivators = Answer.all.map(&:motivators).
       map{ |list| list.each_with_index.to_a }.
-      flatten(1).inject({}) do |result, (item, points)| 
-        result[item] ||= 0
-        result[item] += points
-        result
-      end
-    @motivators.each { |key, value| @motivators[key] = value / Answer.count.to_f }
-    @motivators = @motivators.to_a.sort { |item1, item2| item2.last <=> item1.last }
-    @motivators
+      flatten(1).
+      inject({}, &sum_points).
+      inject({}, &average_points).
+      to_a.
+      sort { |item1, item2| item2.last <=> item1.last }
   end
 
 end
