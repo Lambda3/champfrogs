@@ -19,7 +19,7 @@ class HomeController < ApplicationController
       inject({}, &sum_points).
       inject({}, &average_points).
       to_a.
-      sort { |item1, item2| item2.last <=> item1.last }
+      sort { |item1, item2| item1.last <=> item2.last }
   end
 
 end
