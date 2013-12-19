@@ -10,7 +10,7 @@ module ApplicationHelper
       'William Grasel',
       'Raphael Molesim',
       'Juliano Alves',
-      'Victor Cavalcane',
+      'Victor Cavalcante',
       'Jonas Abreu',
       'Victor Hugo Germano',
       'Giovanni Bassi',
