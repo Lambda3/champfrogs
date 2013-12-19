@@ -14,12 +14,14 @@
 		  </li>
 		  <% end %>
 	 	 </ul>
-		 
-		 <h3>Quem ainda não respondeu?</h3>
-		 <ul style="list-style:none; height: 100px">
+		 <% not_answered_yet = (all_users.map{ |user_name| user_name.gsub(' ', '_').downcase } -  @already_answered) %>
+		 <% if not_answered_yet.first %>
+			 <h3>Quem ainda não respondeu?</h3>
+			 <ul style="list-style:none; height: 100px">
 			 
-		 <% (all_users.map{ |user_name| user_name.gsub(' ', '_').downcase } -  @already_answered).each do |user| %>
-		 	<li style="float:left; padding:20px"><%= user %></li>
+			 <% not_answered_yet.each do |user| %>
+			 	<li style="float:left; padding:20px"><%= user.gsub('_', ' ').split(' ').map(&:capitalize).join(' ')	 %></li>
+			 <% end %>
 		 <% end %>
 	 	</ul>
 	  </div>
