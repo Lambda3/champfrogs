@@ -17,7 +17,8 @@
 		 
 		 <h3>Quem ainda não respondeu?</h3>
 		 <ul style="list-style:none; height: 100px">
-		 <% (all_users -  @already_answered).each do |user| %>
+			 
+		 <% (all_users.map{ |user_name| user_name.gsub(' ', '_').downcase } -  @already_answered).each do |user| %>
 		 	<li style="float:left; padding:20px"><%= user %></li>
 		 <% end %>
 	 	</ul>
