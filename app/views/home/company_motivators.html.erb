@@ -13,7 +13,7 @@
 			  <span class="description" data-index="<%= motivator.first %>"></span>
 		  </li>
 		  <% end %>
-	 	 </ul>
+	 	 </ul><%= @already_answered %>
 		 <% not_answered_yet = (all_users.map{ |user_name| user_name.gsub(' ', '_').downcase } -  @already_answered) %>
 		 <% if not_answered_yet.first %>
 			 <h3>Quem ainda não respondeu?</h3>

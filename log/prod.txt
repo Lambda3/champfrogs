@@ -1,0 +1,1115 @@
+2013-12-18T19:41:53.687585+00:00 heroku[web.1]: Unidling
+2013-12-18T19:41:53.687585+00:00 heroku[web.1]: State changed from down to starting
+2013-12-18T19:41:58.840962+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 4284`
+2013-12-18T19:42:00.874616+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-18T19:42:00.874616+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-18T19:42:01.553256+00:00 app[web.1]: => Booting WEBrick
+2013-12-18T19:42:01.553256+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:4284
+2013-12-18T19:42:01.553256+00:00 app[web.1]: => Call with -d to detach
+2013-12-18T19:42:01.553375+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-18T19:42:01.553375+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-18T19:42:01.582350+00:00 app[web.1]: [2013-12-18 19:42:01] INFO  WEBrick 1.3.1
+2013-12-18T19:42:01.582350+00:00 app[web.1]: [2013-12-18 19:42:01] INFO  ruby 2.0.0 (2013-06-27) [x86_64-linux]
+2013-12-18T19:42:01.582942+00:00 app[web.1]: [2013-12-18 19:42:01] INFO  WEBrick::HTTPServer#start: pid=2 port=4284
+2013-12-18T19:42:01.677706+00:00 heroku[web.1]: State changed from starting to up
+2013-12-18T19:42:02.747333+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 19:42:02 +0000
+2013-12-18T19:42:02.938601+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T19:42:02.947589+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (3.3ms)
+2013-12-18T19:42:02.949890+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+2013-12-18T19:42:03.484151+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=21ms status=200 bytes=305736
+2013-12-18T19:42:03.532581+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=54ms status=200 bytes=368650
+2013-12-18T19:42:03.621486+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=68ms status=200 bytes=324853
+2013-12-18T19:42:03.643295+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=48ms status=200 bytes=227418
+2013-12-18T19:42:03.644216+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=37ms status=200 bytes=321399
+2013-12-18T19:42:04.476232+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=15ms status=200 bytes=322035
+2013-12-18T19:42:04.919468+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=15ms status=200 bytes=224186
+2013-12-18T19:42:05.264507+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=25ms status=200 bytes=286138
+2013-12-18T19:42:05.326477+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=10ms service=108ms status=200 bytes=370343
+2013-12-18T19:42:05.413696+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=200 bytes=29574
+2013-12-18T19:42:07.107125+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=15ms status=200 bytes=0
+2013-12-18T19:42:03.683860+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=7ms service=97ms status=200 bytes=326080
+2013-12-18T19:42:14.165139+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-18 19:42:14 +0000
+2013-12-18T19:42:14.169855+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-18T19:42:14.169994+00:00 app[web.1]:   Parameters: {"user"=>"juliano_alves", "ordering"=>"0,1,2,3,4,5,6,7,8,9", "success"=>"[object Object]"}
+2013-12-18T19:42:14.170438+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-18T19:42:14.253864+00:00 app[web.1]: Completed 500 Internal Server Error in 84ms
+2013-12-18T19:42:14.259525+00:00 app[web.1]: 
+2013-12-18T19:42:14.259525+00:00 app[web.1]: ActiveRecord::StatementInvalid (PG::Error: ERROR:  relation "answers" does not exist
+2013-12-18T19:42:14.259525+00:00 app[web.1]: LINE 5:              WHERE a.attrelid = '"answers"'::regclass
+2013-12-18T19:42:14.259525+00:00 app[web.1]:                                         ^
+2013-12-18T19:42:14.259525+00:00 app[web.1]: :             SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+2013-12-18T19:42:14.259525+00:00 app[web.1]:                      pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+2013-12-18T19:42:14.259525+00:00 app[web.1]:                 ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+2013-12-18T19:42:14.259525+00:00 app[web.1]:               FROM pg_attribute a LEFT JOIN pg_attrdef d
+2013-12-18T19:42:14.259525+00:00 app[web.1]:              WHERE a.attrelid = '"answers"'::regclass
+2013-12-18T19:42:14.259764+00:00 app[web.1]:              ORDER BY a.attnum
+2013-12-18T19:42:14.259525+00:00 app[web.1]:                AND a.attnum > 0 AND NOT a.attisdropped
+2013-12-18T19:42:14.259764+00:00 app[web.1]: ):
+2013-12-18T19:42:14.259764+00:00 app[web.1]:   app/models/answer.rb:11:in `create_or_update!'
+2013-12-18T19:42:14.259764+00:00 app[web.1]:   app/controllers/home_controller.rb:9:in `save_answer'
+2013-12-18T19:42:14.259764+00:00 app[web.1]: 
+2013-12-18T19:42:14.259764+00:00 app[web.1]: 
+2013-12-18T19:42:14.265243+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=7ms service=104ms status=500 bytes=643
+2013-12-18T19:42:02.954825+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=214ms status=200 bytes=6305
+2013-12-18T19:42:04.713186+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=53ms status=200 bytes=415863
+2013-12-18T19:57:26.296236+00:00 heroku[api]: Starting process with command `bundle exec rake db:migrate` by raphael.sm86@gmail.com
+2013-12-18T19:57:32.518681+00:00 heroku[run.1731]: State changed from starting to up
+2013-12-18T19:57:32.781647+00:00 heroku[run.1731]: Awaiting client
+2013-12-18T19:57:32.813945+00:00 heroku[run.1731]: Starting process with command `bundle exec rake db:migrate`
+2013-12-18T19:57:37.924908+00:00 heroku[run.1731]: State changed from up to complete
+2013-12-18T19:57:37.912642+00:00 heroku[run.1731]: Process exited with status 0
+2013-12-18T19:57:52.078067+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=14ms status=200 bytes=6305
+2013-12-18T19:57:52.072454+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T19:57:52.069057+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 19:57:52 +0000
+2013-12-18T19:57:52.074557+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.4ms)
+2013-12-18T19:57:52.076329+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2013-12-18T19:57:52.685443+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=12ms status=200 bytes=227418
+2013-12-18T19:57:52.797160+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=17ms status=200 bytes=305736
+2013-12-18T19:57:52.849075+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=18ms status=200 bytes=326080
+2013-12-18T19:57:52.996038+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=8ms service=152ms status=200 bytes=321399
+2013-12-18T19:57:53.343561+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=81ms status=200 bytes=324853
+2013-12-18T19:57:54.697647+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=17ms status=200 bytes=224186
+2013-12-18T19:57:54.756347+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=36ms status=200 bytes=286138
+2013-12-18T19:57:54.869802+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=18ms status=200 bytes=370343
+2013-12-18T19:58:09.372973+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-18 19:58:09 +0000
+2013-12-18T19:58:09.376153+00:00 app[web.1]:   Parameters: {"user"=>"breno_ferreira", "ordering"=>"0,1,2,4,3,5,6,7,8,9", "success"=>"[object Object]"}
+2013-12-18T19:58:09.376153+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-18T19:58:09.376153+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-18T19:58:09.446500+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=78ms status=200 bytes=20
+2013-12-18T19:58:09.441056+00:00 app[web.1]: Completed 200 OK in 65ms (Views: 0.4ms | ActiveRecord: 42.9ms)
+2013-12-18T19:57:52.538218+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=200 bytes=566
+2013-12-18T19:58:27.629729+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-18 19:58:27 +0000
+2013-12-18T19:58:27.632857+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-18T19:58:27.643294+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (1.6ms)
+2013-12-18T19:58:27.644639+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 4.4ms | ActiveRecord: 2.7ms)
+2013-12-18T19:58:27.648220+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=21ms status=200 bytes=3082
+2013-12-18T19:57:54.149357+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=20ms status=200 bytes=415863
+2013-12-18T19:57:52.779802+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=200 bytes=29574
+2013-12-18T19:57:58.367595+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=5ms status=200 bytes=0
+2013-12-18T19:59:13.761307+00:00 heroku[api]: Starting process with command `bundle exec rake db:reset` by raphael.sm86@gmail.com
+2013-12-18T19:59:19.108032+00:00 heroku[run.6122]: State changed from starting to up
+2013-12-18T19:59:19.122927+00:00 heroku[run.6122]: Awaiting client
+2013-12-18T19:59:19.196204+00:00 heroku[run.6122]: Starting process with command `bundle exec rake db:reset`
+2013-12-18T19:59:22.607477+00:00 heroku[run.6122]: Process exited with status 0
+2013-12-18T19:59:22.625895+00:00 heroku[run.6122]: State changed from up to complete
+2013-12-18T19:59:24.158731+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-18 19:59:24 +0000
+2013-12-18T19:59:24.163187+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-18T19:59:24.173490+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=18ms status=200 bytes=1310
+2013-12-18T19:59:24.165958+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (0.0ms)
+2013-12-18T19:59:24.167211+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 1.3ms)
+2013-12-18T19:59:24.599122+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-18T20:04:48.383220+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-18 20:04:48 +0000
+2013-12-18T20:04:48.385998+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-18T20:04:48.388376+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (0.0ms)
+2013-12-18T20:04:48.395292+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=15ms status=304 bytes=0
+2013-12-18T20:04:48.389531+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.3ms)
+2013-12-18T20:04:48.579753+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-18T20:04:48.770864+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-18T20:04:48.786264+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-18T20:05:01.092955+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 20:05:01 +0000
+2013-12-18T20:05:01.098738+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T20:05:01.100804+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.5ms)
+2013-12-18T20:05:01.108163+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+2013-12-18T20:05:01.110064+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=27ms status=200 bytes=6305
+2013-12-18T20:05:08.246206+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-18T20:05:08.243384+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-18 20:05:08 +0000
+2013-12-18T20:05:08.246206+00:00 app[web.1]:   Parameters: {"user"=>"breno_ferreira", "ordering"=>"0,1,2,3,4,5,6,7,8,9", "success"=>"[object Object]"}
+2013-12-18T20:05:08.246885+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-18T20:05:08.265791+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 0.6ms | ActiveRecord: 15.1ms)
+2013-12-18T20:05:08.276950+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=41ms status=200 bytes=20
+2013-12-18T20:05:11.941977+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-18 20:05:11 +0000
+2013-12-18T20:05:11.948373+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-18T20:05:11.960593+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (2.2ms)
+2013-12-18T20:05:11.962342+00:00 app[web.1]: Completed 200 OK in 14ms (Views: 4.6ms | ActiveRecord: 2.6ms)
+2013-12-18T20:05:11.971320+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=39ms status=200 bytes=3082
+2013-12-18T20:07:12+00:00 heroku[slug-compiler]: Slug compilation started
+2013-12-18T20:08:19.249959+00:00 heroku[api]: Deploy 5bfe5b2 by raphael.sm86@gmail.com
+2013-12-18T20:08:19.287347+00:00 heroku[api]: Release v13 created by raphael.sm86@gmail.com
+2013-12-18T20:08:19+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-12-18T20:08:19.899528+00:00 heroku[web.1]: State changed from up to starting
+2013-12-18T20:08:22.969704+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-18T20:08:23.633430+00:00 app[web.1]: [2013-12-18 20:08:23] FATAL SignalException: SIGTERM
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-18T20:08:23.633430+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-18T20:08:23.633654+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-18T20:08:23.633654+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-18T20:08:23.633654+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-18T20:08:23.633654+00:00 app[web.1]: [2013-12-18 20:08:23] INFO  going to shutdown ...
+2013-12-18T20:08:23.633654+00:00 app[web.1]: [2013-12-18 20:08:23] INFO  WEBrick::HTTPServer#start done.
+2013-12-18T20:08:23.633654+00:00 app[web.1]: Exiting
+2013-12-18T20:08:25.511096+00:00 heroku[web.1]: Process exited with status 143
+2013-12-18T20:08:26.172839+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 39387`
+2013-12-18T20:08:30.423700+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-18T20:08:30.423700+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-18T20:08:31.087434+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:39387
+2013-12-18T20:08:31.087434+00:00 app[web.1]: => Call with -d to detach
+2013-12-18T20:08:31.087434+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-18T20:08:31.087434+00:00 app[web.1]: => Booting WEBrick
+2013-12-18T20:08:31.087434+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-18T20:08:31.120535+00:00 app[web.1]: [2013-12-18 20:08:31] INFO  WEBrick 1.3.1
+2013-12-18T20:08:31.120901+00:00 app[web.1]: [2013-12-18 20:08:31] INFO  WEBrick::HTTPServer#start: pid=2 port=39387
+2013-12-18T20:08:31.120535+00:00 app[web.1]: [2013-12-18 20:08:31] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-18T20:08:31.580910+00:00 heroku[web.1]: State changed from starting to up
+2013-12-18T20:08:33.302263+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-18 20:08:33 +0000
+2013-12-18T20:08:33.601952+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-18T20:08:33.831574+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (23.3ms)
+2013-12-18T20:08:33.859729+00:00 app[web.1]: Completed 200 OK in 257ms (Views: 82.3ms | ActiveRecord: 40.6ms)
+2013-12-18T20:08:34.199627+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=13ms status=200 bytes=566
+2013-12-18T20:08:34.422972+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=58ms status=200 bytes=321399
+2013-12-18T20:08:34.541813+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=77ms status=200 bytes=227418
+2013-12-18T20:08:34.589429+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=103ms status=200 bytes=326080
+2013-12-18T20:08:34.579812+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=105ms status=200 bytes=305736
+2013-12-18T20:08:34.662749+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=50ms status=200 bytes=29574
+2013-12-18T20:08:35.226599+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=71ms status=200 bytes=324853
+2013-12-18T20:08:35.635431+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=45ms status=200 bytes=322035
+2013-12-18T20:08:35.740984+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=55ms status=200 bytes=224186
+2013-12-18T20:08:36.293185+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=263ms status=200 bytes=286138
+2013-12-18T20:08:36.316713+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=8ms service=217ms status=200 bytes=370343
+2013-12-18T20:08:44.958725+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 20:08:44 +0000
+2013-12-18T20:08:44.970970+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T20:08:44.976076+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.7ms)
+2013-12-18T20:08:44.978325+00:00 app[web.1]: Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+2013-12-18T20:08:44.978113+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=27ms status=200 bytes=6305
+2013-12-18T20:08:45.289766+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=10ms status=304 bytes=0
+2013-12-18T20:08:45.307328+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=10ms status=304 bytes=0
+2013-12-18T20:08:45.317138+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=17ms status=304 bytes=0
+2013-12-18T20:08:45.280939+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=9ms status=304 bytes=0
+2013-12-18T20:08:45.445870+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=13ms status=304 bytes=0
+2013-12-18T20:08:45.453513+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=10ms status=304 bytes=0
+2013-12-18T20:08:45.597148+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=14ms status=304 bytes=0
+2013-12-18T20:08:45.632517+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=10ms status=304 bytes=0
+2013-12-18T20:08:45.605528+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=18ms status=304 bytes=0
+2013-12-18T20:08:45.567467+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=64ms status=304 bytes=0
+2013-12-18T20:08:45.331221+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=9ms service=11ms status=304 bytes=0
+2013-12-18T20:08:34.580446+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=98ms status=200 bytes=368650
+2013-12-18T20:08:45.297726+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=12ms status=304 bytes=0
+2013-12-18T20:08:35.755475+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=99ms status=200 bytes=415863
+2013-12-18T20:12:15.853741+00:00 app[web.1]: Started GET "/" for 54.204.20.250 at 2013-12-18 20:12:15 +0000
+2013-12-18T20:12:15.857595+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T20:12:15.863950+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+2013-12-18T20:12:15.862841+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (4.4ms)
+2013-12-18T20:12:15.864521+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="54.204.20.250" dyno=web.1 connect=2ms service=21ms status=200 bytes=6305
+2013-12-18T20:12:19.440334+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="54.204.20.250" dyno=web.1 connect=2ms service=186ms status=200 bytes=326080
+2013-12-18T20:12:19.668082+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="54.204.20.249" dyno=web.1 connect=3ms service=396ms status=200 bytes=368650
+2013-12-18T20:12:19.660172+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="107.21.253.49" dyno=web.1 connect=1ms service=404ms status=200 bytes=324853
+2013-12-18T20:12:19.675107+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="54.225.104.196" dyno=web.1 connect=1ms service=402ms status=200 bytes=227418
+2013-12-18T20:12:19.687091+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="54.221.199.147" dyno=web.1 connect=5ms service=346ms status=200 bytes=322035
+2013-12-18T20:12:19.800653+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="54.204.20.249" dyno=web.1 connect=3ms service=157ms status=200 bytes=415863
+2013-12-18T20:12:19.693838+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="54.221.198.105" dyno=web.1 connect=2ms service=413ms status=200 bytes=321399
+2013-12-18T20:12:19.790960+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="54.221.198.105" dyno=web.1 connect=2ms service=345ms status=200 bytes=305736
+2013-12-18T20:12:19.832198+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="54.225.104.196" dyno=web.1 connect=1ms service=113ms status=200 bytes=286138
+2013-12-18T20:12:19.836324+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="54.204.20.250" dyno=web.1 connect=2ms service=114ms status=200 bytes=224186
+2013-12-18T20:12:19.141880+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="107.21.253.49" dyno=web.1 connect=1ms service=17ms status=200 bytes=0
+2013-12-18T20:15:44.132286+00:00 app[web.1]: Started GET "/" for 189.121.225.203 at 2013-12-18 20:15:44 +0000
+2013-12-18T20:15:44.136574+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T20:15:44.144200+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.3ms)
+2013-12-18T20:15:44.151332+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+2013-12-18T20:15:44.162292+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=1ms service=46ms status=200 bytes=6305
+2013-12-18T20:15:45.266584+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=1ms service=12ms status=200 bytes=566
+2013-12-18T20:15:45.441717+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=1ms service=34ms status=200 bytes=321399
+2013-12-18T20:15:45.618975+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=3ms service=124ms status=200 bytes=326080
+2013-12-18T20:15:45.606940+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=2ms service=119ms status=200 bytes=368650
+2013-12-18T20:15:45.615192+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=1ms service=116ms status=200 bytes=29574
+2013-12-18T20:15:45.632848+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=5ms service=113ms status=200 bytes=305736
+2013-12-18T20:15:46.751471+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=2ms service=116ms status=200 bytes=322035
+2013-12-18T20:15:46.940603+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=1ms service=176ms status=200 bytes=224186
+2013-12-18T20:15:47.627022+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=2ms service=77ms status=200 bytes=286138
+2013-12-18T20:15:45.345896+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=2ms service=26ms status=200 bytes=227418
+2013-12-18T20:15:49.800883+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=1ms service=57ms status=200 bytes=0
+2013-12-18T20:15:46.010020+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=2ms service=46ms status=200 bytes=324853
+2013-12-18T20:15:46.724001+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="189.121.225.203" dyno=web.1 connect=7ms service=73ms status=200 bytes=415863
+2013-12-18T20:35:47.616460+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 20:35:47 +0000
+2013-12-18T20:35:47.624723+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T20:35:47.627412+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+2013-12-18T20:35:47.626372+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.1ms)
+2013-12-18T20:35:47.937979+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=37ms service=71ms status=200 bytes=566
+2013-12-18T20:35:48.005206+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=7ms service=44ms status=200 bytes=326080
+2013-12-18T20:35:48.034357+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=19ms status=200 bytes=29574
+2013-12-18T20:35:48.108996+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=55ms status=200 bytes=321399
+2013-12-18T20:35:48.476865+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=6ms service=45ms status=200 bytes=324853
+2013-12-18T20:35:48.205675+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=69ms status=200 bytes=305736
+2013-12-18T20:35:49.435196+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=74ms status=200 bytes=224186
+2013-12-18T20:35:49.434117+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=72ms status=200 bytes=286138
+2013-12-18T20:35:48.033818+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=6ms service=35ms status=200 bytes=227418
+2013-12-18T20:35:51.786325+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=11ms service=43ms status=200 bytes=0
+2013-12-18T20:35:50.430000+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=50ms service=620ms status=200 bytes=370343
+2013-12-18T20:35:48.995616+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=33ms status=200 bytes=415863
+2013-12-18T20:35:48.964600+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=32ms status=200 bytes=322035
+2013-12-18T20:35:47.638148+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=32ms status=200 bytes=6305
+2013-12-18T20:43:23.079588+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 20:43:23 +0000
+2013-12-18T20:43:23.114848+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T20:43:23.148209+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (26.1ms)
+2013-12-18T20:43:23.170980+00:00 app[web.1]: Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+2013-12-18T20:43:23.181688+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=124ms status=200 bytes=6305
+2013-12-18T20:43:23.443852+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=14ms status=200 bytes=566
+2013-12-18T20:43:23.616834+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=35ms status=200 bytes=227418
+2013-12-18T20:43:23.675543+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=110ms status=200 bytes=321399
+2013-12-18T20:43:23.697518+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=51ms status=200 bytes=305736
+2013-12-18T20:43:24.213142+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=77ms status=200 bytes=324853
+2013-12-18T20:43:24.488753+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=24ms status=200 bytes=322035
+2013-12-18T20:43:24.623923+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=8ms service=94ms status=200 bytes=415863
+2013-12-18T20:43:24.708307+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=22ms status=200 bytes=224186
+2013-12-18T20:43:25.017717+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=24ms status=200 bytes=286138
+2013-12-18T20:43:25.050831+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=35ms status=200 bytes=370343
+2013-12-18T20:43:26.893692+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=37ms status=200 bytes=0
+2013-12-18T20:43:23.613129+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=37ms status=200 bytes=368650
+2013-12-18T20:43:23.713218+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=47ms status=200 bytes=326080
+2013-12-18T21:30:54.857847+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-18 21:30:54 +0000
+2013-12-18T21:30:54.869908+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=7ms service=19ms status=200 bytes=6305
+2013-12-18T21:30:54.861571+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T21:30:54.864726+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.3ms)
+2013-12-18T21:30:54.866148+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+2013-12-18T21:30:56.017465+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=6ms status=200 bytes=566
+2013-12-18T21:30:56.140680+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=34ms status=200 bytes=29574
+2013-12-18T21:30:56.240302+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=54ms status=200 bytes=227418
+2013-12-18T21:30:56.364034+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=57ms status=200 bytes=321399
+2013-12-18T21:30:56.397513+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=12ms service=46ms status=200 bytes=326080
+2013-12-18T21:30:56.591148+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=181ms status=200 bytes=305736
+2013-12-18T21:30:56.430584+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=45ms status=200 bytes=368650
+2013-12-18T21:30:58.066458+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=34ms status=200 bytes=415863
+2013-12-18T21:30:58.164326+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=21ms status=200 bytes=224186
+2013-12-18T21:30:58.541372+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=139ms status=200 bytes=370343
+2013-12-18T21:30:58.563251+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=168ms status=200 bytes=286138
+2013-12-18T21:31:02.315716+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=31ms service=68ms status=200 bytes=0
+2013-12-18T21:32:26.561170+00:00 app[web.1]: Started GET "/answers" for 187.75.203.130 at 2013-12-18 21:32:26 +0000
+2013-12-18T21:32:26.565856+00:00 app[web.1]: 
+2013-12-18T21:32:26.565856+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/answers"):
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/rack/logger.rb:32:in `call_app'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `block in call'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb:22:in `tagged'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/rack/logger.rb:16:in `call'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+2013-12-18T21:32:26.565856+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/static.rb:63:in `call'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-cache-1.2/lib/rack/cache/context.rb:136:in `forward'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-cache-1.2/lib/rack/cache/context.rb:185:in `lookup'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-cache-1.2/lib/rack/cache/context.rb:245:in `fetch'
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/application.rb:223:in `call'
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb:17:in `call'
+2013-12-18T21:32:26.566148+00:00 app[web.1]:   vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/engine.rb:479:in `call'
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+2013-12-18T21:32:26.566375+00:00 app[web.1]: 
+2013-12-18T21:32:26.566375+00:00 app[web.1]: 
+2013-12-18T21:32:26.566375+00:00 app[web.1]:   vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+2013-12-18T21:30:56.590678+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=97ms status=200 bytes=324853
+2013-12-18T22:33:23.443631+00:00 heroku[web.1]: Idling
+2013-12-18T22:33:23.444175+00:00 heroku[web.1]: State changed from up to down
+2013-12-18T22:33:26.706506+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: [2013-12-18 22:33:27] FATAL SignalException: SIGTERM
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-18T22:33:27.414054+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-18T22:33:27.414054+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-18T22:33:27.414054+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-18T22:33:27.414150+00:00 app[web.1]: Exiting
+2013-12-18T22:33:27.414054+00:00 app[web.1]: [2013-12-18 22:33:27] INFO  going to shutdown ...
+2013-12-18T22:33:27.413840+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-18T22:33:27.414054+00:00 app[web.1]: [2013-12-18 22:33:27] INFO  WEBrick::HTTPServer#start done.
+2013-12-18T22:33:29.244492+00:00 heroku[web.1]: Process exited with status 143
+2013-12-18T23:28:01.661876+00:00 heroku[web.1]: Unidling
+2013-12-18T23:28:01.661876+00:00 heroku[web.1]: State changed from down to starting
+2013-12-18T23:28:05.553967+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 57581`
+2013-12-18T23:28:07.521904+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-18T23:28:07.521904+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-18T23:28:08.158241+00:00 app[web.1]: => Booting WEBrick
+2013-12-18T23:28:08.158241+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:57581
+2013-12-18T23:28:08.158241+00:00 app[web.1]: => Call with -d to detach
+2013-12-18T23:28:08.158241+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-18T23:28:08.158241+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-18T23:28:08.184473+00:00 app[web.1]: [2013-12-18 23:28:08] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-18T23:28:08.184473+00:00 app[web.1]: [2013-12-18 23:28:08] INFO  WEBrick 1.3.1
+2013-12-18T23:28:08.184940+00:00 app[web.1]: [2013-12-18 23:28:08] INFO  WEBrick::HTTPServer#start: pid=2 port=57581
+2013-12-18T23:28:08.270447+00:00 heroku[web.1]: State changed from starting to up
+2013-12-18T23:28:08.760030+00:00 app[web.1]: Started GET "/" for 189.110.212.175 at 2013-12-18 23:28:08 +0000
+2013-12-18T23:28:08.876106+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-18T23:28:08.884678+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.9ms)
+2013-12-18T23:28:08.887123+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+2013-12-18T23:28:08.869803+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=3ms service=141ms status=200 bytes=6305
+2013-12-18T23:28:09.398669+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=1ms service=14ms status=200 bytes=227418
+2013-12-18T23:28:09.358993+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=10ms status=200 bytes=566
+2013-12-18T23:28:09.611462+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=31ms status=200 bytes=326080
+2013-12-18T23:28:09.661138+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=43ms status=200 bytes=305736
+2013-12-18T23:28:09.650259+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=1ms service=43ms status=200 bytes=368650
+2013-12-18T23:28:10.174574+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=19ms status=200 bytes=324853
+2013-12-18T23:28:12.125708+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=17ms status=200 bytes=322035
+2013-12-18T23:28:13.264902+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=1ms service=54ms status=200 bytes=415863
+2013-12-18T23:28:13.816089+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=4ms service=21ms status=200 bytes=224186
+2013-12-18T23:28:14.228939+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=1ms service=15ms status=200 bytes=286138
+2013-12-18T23:28:16.104996+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=43ms status=200 bytes=370343
+2013-12-18T23:28:09.588337+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="189.110.212.175" dyno=web.1 connect=2ms service=17ms status=200 bytes=321399
+2013-12-19T00:31:37.205462+00:00 heroku[web.1]: Idling
+2013-12-19T00:31:37.205805+00:00 heroku[web.1]: State changed from up to down
+2013-12-19T00:31:40.236427+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/serv
+er.rb:32:in `start'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: [2013-12-19 00:31:40] FATAL SignalException: SIGTERM
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T00:31:40.825181+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T00:31:40.825408+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T00:31:40.825408+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T00:31:40.825408+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T00:31:40.825408+00:00 app[web.1]: [2013-12-19 00:31:40] INFO  going to shutdown ...
+2013-12-19T00:31:40.825498+00:00 app[web.1]: [2013-12-19 00:31:40] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T00:31:40.825721+00:00 app[web.1]: Exiting
+2013-12-19T00:31:42.101998+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T00:40:59.787256+00:00 heroku[web.1]: Unidling
+2013-12-19T00:40:59.789861+00:00 heroku[web.1]: State changed from down to starting
+2013-12-19T00:41:03.778531+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 23858`
+2013-12-19T00:41:06.326685+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T00:41:06.326685+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T00:41:07.066496+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T00:41:07.066496+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T00:41:07.066496+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T00:41:07.066496+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:23858
+2013-12-19T00:41:07.066496+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T00:41:07.096734+00:00 app[web.1]: [2013-12-19 00:41:07] INFO  WEBrick::HTTPServer#start: pid=2 port=23858
+2013-12-19T00:41:07.096138+00:00 app[web.1]: [2013-12-19 00:41:07] INFO  WEBrick 1.3.1
+2013-12-19T00:41:07.096138+00:00 app[web.1]: [2013-12-19 00:41:07] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T00:41:07.268093+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T00:41:07.851246+00:00 app[web.1]: Started GET "/" for 201.20.208.35 at 2013-12-19 00:41:07 +0000
+2013-12-19T00:41:08.022437+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T00:41:08.033842+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (3.9ms)
+2013-12-19T00:41:08.037212+00:00 app[web.1]: Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+2013-12-19T00:41:08.247418+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=0ms service=10ms status=200 bytes=566
+2013-12-19T00:41:08.459905+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=0ms service=23ms status=200 bytes=227418
+2013-12-19T00:41:08.559793+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=3ms service=68ms status=200 bytes=368650
+2013-12-19T00:41:08.581162+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=0ms service=65ms status=200 bytes=324853
+2013-12-19T00:41:10.916512+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=15ms status=200 bytes=322035
+2013-12-19T00:41:11.299693+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=46ms status=200 bytes=415863
+2013-12-19T00:41:12.280495+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=3ms service=34ms status=200 bytes=224186
+2013-12-19T00:41:13.046733+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=4ms service=21ms status=200 bytes=286138
+2013-12-19T00:41:13.574002+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=15ms status=200 bytes=370343
+2013-12-19T00:41:14.104129+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=12ms status=200 bytes=29574
+2013-12-19T00:41:18.372041+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=7ms service=9ms status=200 bytes=0
+2013-12-19T00:41:08.042078+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=201ms status=200 bytes=6305
+2013-12-19T00:41:08.495191+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=27ms service=28ms status=200 bytes=326080
+2013-12-19T00:41:08.451368+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=0ms service=20ms status=200 bytes=305736
+2013-12-19T01:14:10.094674+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=9ms status=304 bytes=0
+2013-12-19T01:14:09.344754+00:00 app[web.1]: Started GET "/company_motivators" for 187.35.13.159 at 2013-12-19 01:14:09 +0000
+2013-12-19T01:14:09.350429+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T01:14:09.555974+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (6.0ms)
+2013-12-19T01:14:09.557609+00:00 app[web.1]: Completed 200 OK in 207ms (Views: 8.6ms | ActiveRecord: 128.4ms)
+2013-12-19T01:14:10.136263+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=8ms status=304 bytes=0
+2013-12-19T01:14:09.905560+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=7ms service=7ms status=304 bytes=0
+2013-12-19T01:14:09.929176+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=17ms status=304 bytes=0
+2013-12-19T01:14:09.930395+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=16ms status=304 bytes=0
+2013-12-19T01:14:10.256206+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=2ms service=6ms status=304 bytes=0
+2013-12-19T01:14:10.123657+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=4ms service=7ms status=304 bytes=0
+2013-12-19T01:14:10.124912+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-19T01:14:10.186881+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=4ms service=9ms status=304 bytes=0
+2013-12-19T01:14:09.605792+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=8ms service=261ms status=304 bytes=0
+2013-12-19T01:14:09.899651+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=8ms status=304 bytes=0
+2013-12-19T01:14:10.102326+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=4ms service=6ms status=304 bytes=0
+2013-12-19T01:14:09.923225+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=3ms service=9ms status=304 bytes=0
+2013-12-19T01:14:09.939535+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=2ms service=16ms status=304 bytes=0
+2013-12-19T01:15:57.719278+00:00 heroku[api]: Starting process with command `-app champfl3 console` by raphael.sm86@gmail.com
+2013-12-19T01:16:03.455833+00:00 heroku[run.2767]: State changed from starting to up
+2013-12-19T01:16:03.661237+00:00 heroku[run.2767]: Awaiting client
+2013-12-19T01:16:03.725303+00:00 heroku[run.2767]: Error R13 (Attach error) -> Failed to attach to process
+2013-12-19T01:16:04.973110+00:00 heroku[run.2767]: Process exited with status 128
+2013-12-19T01:16:04.990002+00:00 heroku[run.2767]: State changed from up to complete
+2013-12-19T01:16:06.529042+00:00 heroku[api]: Starting process with command `-app champsl3 console` by raphael.sm86@gmail.com
+2013-12-19T01:16:12.157934+00:00 heroku[run.3101]: State changed from starting to up
+2013-12-19T01:16:12.252425+00:00 heroku[run.3101]: Awaiting client
+2013-12-19T01:16:12.325717+00:00 heroku[run.3101]: Starting process with command `-app champsl3 console`
+2013-12-19T01:16:14.653649+00:00 heroku[run.3101]: Process exited with status 2
+2013-12-19T01:16:14.646437+00:00 heroku[run.3101]: State changed from up to complete
+2013-12-19T01:16:21.254124+00:00 heroku[api]: Starting process with command `bundle exec rails console` by raphael.sm86@gmail.com
+2013-12-19T01:16:26.179582+00:00 heroku[run.4699]: Awaiting client
+2013-12-19T01:16:26.192946+00:00 heroku[run.4699]: State changed from starting to up
+2013-12-19T01:16:26.223485+00:00 heroku[run.4699]: Starting process with command `bundle exec rails console`
+2013-12-19T01:17:29.488920+00:00 heroku[run.4699]: Process exited with status 0
+2013-12-19T01:17:29.499519+00:00 heroku[run.4699]: State changed from up to complete
+2013-12-19T01:19:04+00:00 heroku[slug-compiler]: Slug compilation started
+2013-12-19T01:19:50.443153+00:00 heroku[api]: Deploy 015ed09 by raphael.sm86@gmail.com
+2013-12-19T01:19:50.477456+00:00 heroku[api]: Release v14 created by raphael.sm86@gmail.com
+2013-12-19T01:19:50+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-12-19T01:19:51.229201+00:00 heroku[web.1]: State changed from up to starting
+2013-12-19T01:19:54.670338+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T01:19:55.352856+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 27287`
+2013-12-19T01:19:55.429799+00:00 app[web.1]: [2013-12-19 01:19:55] FATAL SignalException: SIGTERM
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T01:19:55.430004+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T01:19:55.430004+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T01:19:55.429799+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T01:19:55.430004+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T01:19:55.430004+00:00 app[web.1]: [2013-12-19 01:19:55] INFO  going to shutdown ...
+2013-12-19T01:19:55.430004+00:00 app[web.1]: [2013-12-19 01:19:55] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T01:19:55.430004+00:00 app[web.1]: Exiting
+2013-12-19T01:19:57.005449+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T01:19:57.265840+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T01:19:57.265950+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T01:19:57.988253+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T01:19:57.988253+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:27287
+2013-12-19T01:19:57.988253+00:00 ap
+p[web.1]: => Call with -d to detach
+2013-12-19T01:19:57.988253+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T01:19:57.988253+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T01:19:58.120641+00:00 app[web.1]: [2013-12-19 01:19:58] INFO  WEBrick 1.3.1
+2013-12-19T01:19:58.120641+00:00 app[web.1]: [2013-12-19 01:19:58] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T01:19:58.121562+00:00 app[web.1]: [2013-12-19 01:19:58] INFO  WEBrick::HTTPServer#start: pid=2 port=27287
+2013-12-19T01:19:58.710771+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T01:21:12+00:00 heroku[slug-compiler]: Slug compilation started
+2013-12-19T01:21:24.763938+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=119ms status=200 bytes=6396
+2013-12-19T01:21:24.668856+00:00 app[web.1]: Started GET "/" for 187.35.13.159 at 2013-12-19 01:21:24 +0000
+2013-12-19T01:21:24.781606+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T01:21:24.781606+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.4ms)
+2013-12-19T01:21:24.781606+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+2013-12-19T01:21:25.001155+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=25ms status=200 bytes=368650
+2013-12-19T01:21:25.063688+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=3ms service=64ms status=200 bytes=227418
+2013-12-19T01:21:25.091470+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=7ms service=79ms status=200 bytes=326080
+2013-12-19T01:21:25.076202+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=2ms service=69ms status=200 bytes=305736
+2013-12-19T01:21:25.155085+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=9ms status=200 bytes=29574
+2013-12-19T01:21:25.494496+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=63ms status=200 bytes=324853
+2013-12-19T01:21:25.076578+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=2ms service=78ms status=200 bytes=321399
+2013-12-19T01:21:26.122894+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=13ms service=40ms status=200 bytes=322035
+2013-12-19T01:21:26.275424+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=2ms service=50ms status=200 bytes=415863
+2013-12-19T01:21:26.349857+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=14ms status=200 bytes=224186
+2013-12-19T01:21:26.642745+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=3ms service=27ms status=200 bytes=286138
+2013-12-19T01:21:26.724905+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=27ms status=200 bytes=370343
+2013-12-19T01:21:38.675302+00:00 heroku[api]: Deploy 68a9c61 by raphael.sm86@gmail.com
+2013-12-19T01:21:38.718755+00:00 heroku[api]: Release v15 created by raphael.sm86@gmail.com
+2013-12-19T01:21:38+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-12-19T01:21:39.398338+00:00 heroku[web.1]: State changed from up to starting
+2013-12-19T01:21:42.795922+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 52416`
+2013-12-19T01:21:42.890403+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: [2013-12-19 01:21:43] FATAL SignalException: SIGTERM
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T01:21:43.646034+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T01:21:43.646276+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T01:21:43.646276+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T01:21:43.646276+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T01:21:43.646276+00:00 app[web.1]: [2013-12-19 01:21:43] INFO  going to shutdown ...
+2013-12-19T01:21:43.646276+00:00 app[web.1]: [2013-12-19 01:21:43] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T01:21:43.646276+00:00 app[web.1]: Exiting
+2013-12-19T01:21:44.447315+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T01:21:44.447315+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T01:21:44.998131+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T01:21:44.998131+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T01:21:44.998131+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:52416
+2013-12-19T01:21:44.998131+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T01:21:44.998131+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T01:21:45.022360+00:00 app[web.1]: [2013-12-19 01:21:45] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T01:21:45.022360+00:00 app[web.1]: [2013-12-19 01:21:45] INFO  WEBrick 1.3.1
+2013-12-19T01:21:45.022782+00:00 app[web.1]: [2013-12-19 01:21:45] INFO  WEBrick::HTTPServer#start: pid=2 port=52416
+2013-12-19T01:21:45.020844+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T01:21:45.106814+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T01:24:39.944910+00:00 app[web.1]: Started GET "/" for 187.3.138.152 at 2013-12-19 01:24:39 +0000
+2013-12-19T01:24:40.016868+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T01:24:40.051978+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=1ms service=92ms status=200 bytes=6396
+2013-12-19T01:24:40.024637+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.7ms)
+2013-12-19T01:24:40.026867+00:00 app[web.1]: Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+2013-12-19T01:24:40.299727+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=1ms service=20ms status=200 bytes=227418
+2013-12-19T01:24:40.447604+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=2ms service=9ms status=200 bytes=29574
+2013-12-19T01:24:40.577122+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=1ms service=62ms status=200 bytes=326080
+2013-12-19T01:24:40.584429+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=6ms service=57ms status=200 bytes=368650
+2013-12-19T01:24:40.559189+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=2ms service=52ms status=200 bytes=321399
+2013-12-19T01:24:40.577451+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=2ms service=54ms status=200 bytes=305736
+2013-12-19T01:24:41.322247+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=3ms service=39ms status=200 bytes=322035
+2013-12-19T01:24:42.008005+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=3ms service=54ms status=200 bytes=415863
+2013-12-19T01:24:42.244162+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=3ms service=25ms status=200 bytes=224186
+2013-12-19T01:24:42.752728+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=5ms service=45ms status=200 bytes=370343
+2013-12-19T01:24:42.541937+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=1ms service=22ms status=200 bytes=286138
+2013-12-19T01:24:40.278946+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=3ms service=9ms status=200 bytes=566
+2013-12-19T01:24:46.429733+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=4ms service=6ms status=200 bytes=0
+2013-12-19T01:24:40.833148+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.3.138.152" dyno=web.1 connect=2ms service=32ms status=200 bytes=324853
+2013-12-19T01:41:11.449938+00:00 app[web.1]:   Parameters: {"user"=>"raphael_molesim", "ordering"=>"6,8,1,5,3,7,4,2,0,9", "success"=>"[object Object]"}
+2013-12-19T01:41:11.450350+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T01:41:11.449938+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T01:41:11.446441+00:00 app[web.1]: Started POST "/answers" for 187.35.13.159 at 2013-12-19 01:41:11 +0000
+2013-12-19T01:41:14.100566+00:00 app[web.1]: Completed 200 OK in 2650ms (Views: 0.3ms | ActiveRecord: 2603.8ms)
+2013-12-19T01:41:14.103921+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.35.13.159" dyno=web.1 connect=1ms service=2662ms status=200 bytes=20
+2013-12-19T01:49:19.294862+00:00 app[web.1]: Started GET "/" for 189.27.237.101 at 2013-12-19 01:49:19 +0000
+2013-12-19T01:49:19.297848+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T01:49:19.300047+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.3ms)
+2013-12-19T01:49:19.301908+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+2013-12-19T01:49:19.301883+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=3ms service=14ms status=200 bytes=6396
+2013-12-19T01:49:19.652076+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=3ms service=51ms status=200 bytes=305736
+2013-12-19T01:49:19.680650+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=2ms service=64ms status=200 bytes=321399
+2013-12-19T01:49:19.623349+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=2ms service=7ms status=200 bytes=566
+2013-12-19T01:49:19.804561+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=19ms service=140ms status=200 bytes=368650
+2013-12-19T01:49:20.250816+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=2ms service=26ms status=200 bytes=324853
+2013-12-19T01:49:19.676793+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=1ms service=59ms status=200 bytes=227418
+2013-12-19T01:49:20.868151+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=2ms service=20ms status=200 bytes=224186
+2013-12-19T01:49:21.219921+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=5ms service=35ms status=200 bytes=370343
+2013-12-19T01:49:19.776636+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=4ms service=8ms status=200 bytes=29574
+2013-12-19T01:49:25.948622+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=2ms service=9ms status=200 bytes=0
+2013-12-19T01:49:19.716066+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=9ms service=89ms status=200 bytes=326080
+2013-12-19T01:49:20.712475+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=7ms service=73ms status=200 bytes=322035
+
+2013-12-19T01:49:21.197390+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="10.1.1.93, 189.27.237.101" dyno=web.1 connect=4ms service=24ms status=200 bytes=286138
+2013-12-19T01:57:25.355087+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T01:57:25.355087+00:00 app[web.1]:   Parameters: {"user"=>"igor_abade", "ordering"=>"9,4,0,1,2,7,8,6,3,5", "success"=>"[object Object]"}
+2013-12-19T01:57:25.352313+00:00 app[web.1]: Started POST "/answers" for 189.27.237.101 at 2013-12-19 01:57:25 +0000
+2013-12-19T01:57:25.355358+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T01:57:25.366069+00:00 app[web.1]: Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 8.2ms)
+2013-12-19T02:59:40.034071+00:00 heroku[web.1]: State changed from up to down
+2013-12-19T02:59:40.033566+00:00 heroku[web.1]: Idling
+2013-12-19T02:59:42.534515+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T02:59:43.056658+00:00 app[web.1]: [2013-12-19 02:59:43] FATAL SignalException: SIGTERM
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T02:59:43.056867+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T02:59:43.056867+00:00 app[web.1]: [2013-12-19 02:59:43] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T02:59:43.056867+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T02:59:43.056867+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T02:59:43.056867+00:00 app[web.1]: [2013-12-19 02:59:43] INFO  going to shutdown ...
+2013-12-19T02:59:43.056658+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T02:59:43.056867+00:00 app[web.1]: Exiting
+2013-12-19T02:59:44.610832+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T08:44:16.441146+00:00 heroku[web.1]: Unidling
+2013-12-19T08:44:16.441953+00:00 heroku[web.1]: State changed from down to starting
+2013-12-19T08:44:19.693186+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 44431`
+2013-12-19T08:44:21.778984+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T08:44:21.778659+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T08:44:22.660571+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T08:44:22.660571+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:44431
+2013-12-19T08:44:22.660571+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T08:44:22.660571+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T08:44:22.660571+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T08:44:22.700489+00:00 app[web.1]: [2013-12-19 08:44:22] INFO  WEBrick 1.3.1
+2013-12-19T08:44:22.700489+00:00 app[web.1]: [2013-12-19 08:44:22] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T08:44:22.700994+00:00 app[web.1]: [2013-12-19 08:44:22] INFO  WEBrick::HTTPServer#start: pid=2 port=44431
+2013-12-19T08:44:23.326744+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T08:44:24.559357+00:00 app[web.1]: Started GET "/" for 201.20.208.35 at 2013-12-19 08:44:24 +0000
+2013-12-19T08:44:24.761586+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T08:44:24.768715+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.4ms)
+2013-12-19T08:44:24.770782+00:00 app[web.1]: Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+2013-12-19T08:44:24.771496+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=225ms status=200 bytes=6396
+2013-12-19T08:44:24.935013+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=8ms status=200 bytes=566
+2013-12-19T08:44:25.248760+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=146ms status=200 bytes=324853
+2013-12-19T08:44:25.275171+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=144ms status=200 bytes=227418
+2013-12-19T08:44:25.279934+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=177ms status=200 bytes=368650
+2013-12-19T08:44:25.307547+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=203ms status=200 bytes=326080
+2013-12-19T08:44:25.226243+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=3ms service=129ms status=200 bytes=305736
+2013-12-19T08:44:26.606480+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=22ms status=200 bytes=322035
+2013-12-19T08:44:26.852304+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=32ms status=200 bytes=415863
+2013-12-19T08:44:27.253972+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=18ms status=200 bytes=224186
+2013-12-19T08:44:27.399685+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=1ms service=17ms status=200 bytes=286138
+2013-12-19T08:44:27.689538+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=50ms status=200 bytes=370343
+2013-12-19T08:44:27.993062+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=2ms service=6ms status=200 bytes=29574
+2013-12-19T08:49:00.186723+00:00 app[web.1]: Started POST "/answers" for 201.20.208.35 at 2013-12-19 08:49:00 +0000
+2013-12-19T08:49:00.190367+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T08:49:00.190367+00:00 app[web.1]:   Parameters: {"user"=>"roberto_rodriguês", "ordering"=>"0,5,3,6,8,4,2,7,9,1", "success"=>"[object Object]"}
+2013-12-19T08:49:00.190779+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T08:49:02.068282+00:00 app[web.1]: Completed 200 OK in 1878ms (Views: 0.3ms | ActiveRecord: 1841.3ms)
+2013-12-19T08:49:02.067551+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="201.20.208.35" dyno=web.1 connect=0ms service=1890ms status=200 bytes=20
+2013-12-19T09:50:52.267181+00:00 heroku[web.1]: Idling
+2013-12-19T09:50:52.267584+00:00 heroku[web.1]: State changed from up to down
+2013-12-19T09:50:54.034632+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T09:50:54.390054+00:00 app[web.1]: [2013-12-19 09:50:54] FATAL SignalException: SIGTERM
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T09:50:54.390272+00:00 app[web.1]: [2013-12-19 09:50:54] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T09:50:54.390272+00:00 app[web.1]: Exiting
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T09:50:54.390272+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T09:50:54.390272+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T09:50:54.390272+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T09:50:54.390272+00:00 app[web.1]: [2013-12-19 09:50:54] INFO  going to shutdown ...
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T09:50:54.390054+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T09:50:55.589307+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T11:44:42.243672+00:00 heroku[web.1]: Unidling
+2013-12-19T11:44:42.243672+00:00 heroku[web.1]: State changed from down to starting
+2013-12-19T11:44:46.230357+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 14263`
+2013-12-19T11:44:49.153285+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T11:44:49.154096+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T11:44:49.841011+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:14263
+2013-12-19T11:44:49.841011+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T11:44:49.841011+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T11:44:49.841011+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T11:44:49.841011+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T11:44:49.922748+00:00 app[web.1]: [2013-12-19 11:44:49] INFO  WEBrick 1.3.1
+2013-12-19T11:44:49.922748+00:00 app[web.1]: [2013-12-19 11:44:49] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T11:44:49.925563+00:00 app[web.1]: [2013-12-19 11:44:49] INFO  WEBrick::HTTPServer#start: pid=2 port=14263
+2013-12-19T11:44:51.317038+00:00 app[web.1]: Started GET "/" for 186.241.192.56 at 2013-12-19 11:44:51 +0000
+2013-12-19T11:44:51.450165+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T11:44:51.466267+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (5.3ms)
+2013-12-19T11:44:51.469122+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+2013-12-19T11:44:51.471729+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=172ms status=200 bytes=6396
+2013-12-19T11:44:52.003579+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=21ms status=200 bytes=227418
+2013-12-19T11:44:52.565539+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=85ms status=200 bytes=321399
+2013-12-19T11:44:52.606393+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=99ms status=200 bytes=326080
+2013-12-19T11:44:52.623103+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=99ms status=200 bytes=305736
+2013-12-19T11:44:54.578279+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=3ms service=19ms status=200 bytes=322035
+2013-12-19T11:44:54.671017+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=63ms status=200 bytes=415863
+2013-12-19T11:44:50.216086+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T11:44:52.622716+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=73ms status=200 bytes=324853
+2013-12-19T11:45:25.420874+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=14ms status=200 bytes=224186
+2013-12-19T11:45:28.171876+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=25ms status=200 bytes=286138
+2013-12-19T11:45:34.055124+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=7ms status=200 bytes=29574
+2013-12-19T11:45:42.683540+00:00 app[web.1]: Started GET "/" for 186.241.192.56 at 2013-12-19 11:45:42 +0000
+2013-12-19T11:45:42.690614+00:00 app[web.1]: Processing by HomeController#index a
+s HTML
+2013-12-19T11:45:42.701687+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (10.3ms)
+2013-12-19T11:45:42.707816+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=2ms service=30ms status=304 bytes=0
+2013-12-19T11:45:42.703047+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+2013-12-19T11:45:44.415146+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=2ms service=7ms status=304 bytes=0
+2013-12-19T11:45:44.452020+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-19T11:45:44.472364+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=5ms status=304 bytes=0
+2013-12-19T11:45:44.498025+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=4ms status=304 bytes=0
+2013-12-19T11:45:44.606252+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=16ms status=304 bytes=0
+2013-12-19T11:45:44.622200+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-19T11:45:44.718598+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=3ms service=15ms status=206 bytes=45375
+2013-12-19T11:45:44.389924+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=8ms status=304 bytes=0
+2013-12-19T11:45:44.796501+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=6ms service=12ms status=304 bytes=0
+2013-12-19T11:45:44.434477+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-19T11:45:44.637669+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=5ms status=304 bytes=0
+2013-12-19T11:45:44.664876+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=12ms status=206 bytes=153305
+2013-12-19T11:44:52.496692+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=38ms status=200 bytes=368650
+2013-12-19T11:45:52.597021+00:00 app[web.1]: Started GET "/" for 186.241.192.56 at 2013-12-19 11:45:52 +0000
+2013-12-19T11:45:52.599421+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T11:45:52.601396+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.4ms)
+2013-12-19T11:45:52.605508+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=1ms service=12ms status=304 bytes=0
+2013-12-19T11:45:52.602645+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+2013-12-19T11:46:09.891168+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=4ms service=31ms status=200 bytes=0
+2013-12-19T11:45:44.727898+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=3ms service=49ms status=206 bytes=238226
+2013-12-19T11:45:30.171553+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="186.241.192.56" dyno=web.1 connect=2ms service=29ms status=200 bytes=370343
+2013-12-19T12:51:34.386305+00:00 heroku[web.1]: Idling
+2013-12-19T12:51:34.386909+00:00 heroku[web.1]: State changed from up to down
+2013-12-19T12:51:37.078877+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T12:51:37.688027+00:00 app[web.1]: [2013-12-19 12:51:37] FATAL SignalException: SIGTERM
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T12:51:37.688235+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T12:51:37.688027+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T12:51:37.688235+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T12:51:37.688235+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T12:51:37.688235+00:00 app[web.1]: [2013-12-19 12:51:37] INFO  going to shutdown ...
+2013-12-19T12:51:37.688235+00:00 app[web.1]: [2013-12-19 12:51:37] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T12:51:37.688235+00:00 app[web.1]: Exiting
+2013-12-19T12:51:39.091333+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T15:37:49.801590+00:00 heroku[web.1]: Unidling
+2013-12-19T15:37:49.801590+00:00 heroku[web.1]: State changed from down to starting
+2013-12-19T15:37:53.772956+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 50779`
+2013-12-19T15:37:56.723989+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T15:37:56.724334+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T15:37:57.788994+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T15:37:57.788994+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T15:37:57.788994+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T15:37:57.788994+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:50779
+2013-12-19T15:37:57.788994+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T15:37:57.847399+00:00 app[web.1]: [2013-12-19 15:37:57] INFO  WEBrick 1.3.1
+2013-12-19T15:37:57.847476+00:00 app[web.1]: [2013-12-19 15:37:57] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T15:37:57.847937+00:00 app[web.1]: [2013-12-19 15:37:57] INFO  WEBrick::HTTPServer#start: pid=2 port=50779
+2013-12-19T15:37:58.511320+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T15:37:58.877403+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 15:37:58 +0000
+2013-12-19T15:37:59.075481+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T15:37:59.090836+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (3.5ms)
+2013-12-19T15:37:59.094710+00:00 app[web.1]: Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+2013-12-19T15:37:59.094259+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=238ms status=200 bytes=6396
+2013-12-19T15:37:59.432877+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=21ms status=200 bytes=566
+2013-12-19T15:37:59.669582+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=72ms status=200 bytes=29574
+2013-12-19T15:37:59.694836+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=139ms status=200 bytes=368650
+2013-12-19T15:38:00.064891+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=32ms status=200 bytes=324853
+2013-12-19T15:38:00.909440+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=25ms status=200 bytes=224186
+2013-12-19T15:38:00.805594+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=39ms status=200 bytes=415863
+2013-12-19T15:38:00.915384+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=28ms status=200 bytes=286138
+2013-12-19T15:38:00.689661+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=59ms status=200 bytes=322035
+2013-12-19T15:37:59.697545+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=112ms status=200 bytes=305736
+2013-12-19T15:38:02.920914+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=18ms status=200 bytes=0
+2013-12-19T15:37:59.702579+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=94ms status=200 bytes=321399
+2013-12-19T15:38:01.019515+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=70ms status=200 bytes=370343
+2013-12-19T15:56:32.101039+00:00 app[web.1]: Started GET "/" for 186.230.7.154 at 2013-12-19 15:56:32 +0000
+2013-12-19T15:56:32.105950+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T15:56:32.110647+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (4.1ms)
+2013-12-19T15:56:32.111748+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+2013-12-19T15:56:33.060943+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=11ms status=304 bytes=0
+2013-12-19T15:56:33.318961+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=18ms status=304 bytes=0
+2013-12-19T15:56:33.314071+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=2ms service=13ms status=304 bytes=0
+2013-12-19T15:56:33.363931+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=9ms status=304 bytes=0
+2013-12-19T15:56:33.480122+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=10ms status=304 bytes=0
+2013-12-19T15:56:33.067702+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=12ms status=304 bytes=0
+2013-12-19T15:56:33.666814+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=14ms status=304 bytes=0
+2013-12-19T15:56:33.496884+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=8ms status=304 bytes=0
+2013-12-19T15:56:33.669950+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=13ms status=304 bytes=0
+2013-12-19T15:56:33.523712+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=9ms status=304 bytes=0
+2013-12-19T15:56:33.520365+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=0ms service=70ms status=304 bytes=0
+2013-12-19T15:56:33.625392+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="186.230.7.154" dyno=web.1 connect=1ms service=70ms status=304 bytes=0
+2013-12-19T16:47:24.059746+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 16:47:24 +0000
+2013-12-19T16:47:24.064151+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T16:47:24.074827+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.3ms)
+2013-12-19T16:47:24.076341+00:00 app[web.1]: Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+2013-12-19T16:47:24.458866+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=8ms service=18ms status=200 bytes=566
+2013-12-19T16:47:24.597690+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=12ms status=200 bytes=29574
+2013-12-19T16:47:24.675690+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.hero
+kuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=71ms status=200 bytes=305736
+2013-12-19T16:47:24.730249+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=139ms status=200 bytes=321399
+2013-12-19T16:47:24.780137+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=27ms service=106ms status=200 bytes=326080
+2013-12-19T16:47:24.932706+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=49ms status=200 bytes=324853
+2013-12-19T16:47:26.140217+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=97ms status=200 bytes=224186
+2013-12-19T16:47:26.137664+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=106ms status=200 bytes=286138
+2013-12-19T16:47:28.377014+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=15ms status=200 bytes=0
+2013-12-19T16:47:25.822150+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=99ms status=200 bytes=322035
+2013-12-19T16:48:14.210377+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-19 16:48:14 +0000
+2013-12-19T16:48:14.248353+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T16:48:14.248353+00:00 app[web.1]:   Parameters: {"user"=>"victor_hugo_germano", "ordering"=>"5,0,3,2,6,8,1,9,4,7", "success"=>"[object Object]"}
+2013-12-19T16:48:14.257321+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T16:48:17.022299+00:00 app[web.1]: Completed 200 OK in 2774ms (Views: 0.3ms | ActiveRecord: 2535.0ms)
+2013-12-19T16:48:17.023533+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=2837ms status=200 bytes=20
+2013-12-19T16:48:18.973612+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 16:48:18 +0000
+2013-12-19T16:48:18.983156+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T16:48:19.012356+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (2.1ms)
+2013-12-19T16:48:19.014007+00:00 app[web.1]: Completed 200 OK in 31ms (Views: 9.6ms | ActiveRecord: 11.1ms)
+2013-12-19T16:47:24.093565+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=49ms status=200 bytes=6396
+2013-12-19T16:47:26.117735+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=83ms status=200 bytes=370343
+2013-12-19T16:54:02.067888+00:00 app[web.1]: Started GET "/" for 189.69.136.245 at 2013-12-19 16:54:02 +0000
+2013-12-19T16:54:02.106214+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T16:54:02.127669+00:00 app[web.1]: Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+2013-12-19T16:54:02.126130+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (18.0ms)
+2013-12-19T16:54:02.414054+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=2ms service=12ms status=200 bytes=566
+2013-12-19T16:54:02.499041+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=6ms service=67ms status=200 bytes=227418
+2013-12-19T16:54:02.567141+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=10ms status=200 bytes=29574
+2013-12-19T16:54:02.639481+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=42ms status=200 bytes=321399
+2013-12-19T16:54:02.832589+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=23ms service=199ms status=200 bytes=305736
+2013-12-19T16:54:02.781138+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=28ms service=75ms status=200 bytes=368650
+2013-12-19T16:54:03.663317+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=27ms status=200 bytes=322035
+2013-12-19T16:54:04.088421+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=108ms status=200 bytes=415863
+2013-12-19T16:54:04.206050+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=31ms status=200 bytes=286138
+2013-12-19T16:54:04.236425+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=0ms service=29ms status=200 bytes=370343
+2013-12-19T16:54:08.741296+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=9ms status=200 bytes=0
+2013-12-19T16:54:02.604745+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=1ms service=25ms status=200 bytes=326080
+2013-12-19T17:03:23.201696+00:00 app[web.1]: Started POST "/answers" for 189.69.136.245 at 2013-12-19 17:03:23 +0000
+2013-12-19T17:03:23.210962+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T17:03:23.210962+00:00 app[web.1]:   Parameters: {"user"=>"william_grasel", "ordering"=>"8,1,3,0,5,6,4,9,7,2", "success"=>"[object Object]"}
+2013-12-19T17:03:23.213629+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T17:03:23.241583+00:00 app[web.1]: Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 18.0ms)
+2013-12-19T17:03:23.251090+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="189.69.136.245" dyno=web.1 connect=5ms service=57ms status=200 bytes=20
+2013-12-19T17:08:55.742980+00:00 app[web.1]: Started GET "/" for 201.19.21.61 at 2013-12-19 17:08:55 +0000
+2013-12-19T17:08:55.777765+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T17:08:55.780650+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.7ms)
+2013-12-19T17:08:55.801848+00:00 app[web.1]: Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+2013-12-19T17:09:01.303975+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="201.19.21.61" dyno=web.1 connect=2ms service=76ms status=200 bytes=0
+2013-12-19T17:08:55.827687+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="201.19.21.61" dyno=web.1 connect=3ms service=140ms status=304 bytes=0
+2013-12-19T17:12:48.556214+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 17:12:48 +0000
+2013-12-19T17:12:48.587493+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T17:12:48.593921+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.1ms)
+2013-12-19T17:12:48.595268+00:00 app[web.1]: Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+2013-12-19T17:12:48.913880+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=14ms status=200 bytes=566
+2013-12-19T17:12:49.215033+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=6ms service=164ms status=200 bytes=321399
+2013-12-19T17:12:49.281284+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=199ms status=200 bytes=227418
+2013-12-19T17:12:50.072084+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=44ms status=200 bytes=324853
+2013-12-19T17:12:50.401380+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=143ms status=200 bytes=415863
+2013-12-19T17:12:50.875747+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=28ms status=200 bytes=286138
+2013-12-19T17:13:02.963331+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=8ms service=37ms status=200 bytes=0
+2013-12-19T17:12:48.599352+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=52ms status=200 bytes=6396
+2013-12-19T17:12:49.304291+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=252ms status=200 bytes=368650
+2013-12-19T17:12:49.306027+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=149ms status=200 bytes=29574
+2013-12-19T17:12:50.383114+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=144ms status=200 bytes=322035
+2013-12-19T17:12:49.311385+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=189ms status=200 bytes=305736
+2013-12-19T17:22:40.575885+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-19 17:22:40 +0000
+2013-12-19T17:22:40.584675+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T17:22:40.584675+00:00 app[web.1]:   Parameters: {"user"=>"vanessa_d'aguiar", "ordering"=>"1,3,0,6,5,2,8,7,4,9", "success"=>"[object Object]"}
+2013-12-19T17:22:40.585017+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T17:22:40.622820+00:00 app[web.1]: Completed 200 OK in 38ms (Views: 0.2ms | ActiveRecord: 32.9ms)
+2013-12-19T17:22:40.629416+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=13ms service=62ms status=200 bytes=20
+2013-12-19T17:29:54.988201+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 17:29:54 +0000
+2013-12-19T17:29:54.997681+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T17:29:55.001948+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (3.5ms)
+2013-12-19T17:29:55.002983+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+2013-12-19T17:29:55.484181+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=35ms status=200 bytes=326080
+2013-12-19T17:29:55.524815+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=61ms status=200 bytes=227418
+2013-12-19T17:29:55.545285+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=7ms service=80ms status=200 bytes=321399
+2013-12-19T17:29:55.598744+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=15ms service=79ms status=200 bytes=368650
+2013-12-19T17:29:55.635336+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=24ms status=200 bytes=305736
+2013-12-19T17:29:55.904054+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=95ms status=200 bytes=324853
+2013-12-19T17:29:56.671415+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=59ms status=200 bytes=415863
+2013-12-19T17:29:56.782999+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=19ms status=200 bytes=224186
+2013-12-19T17:29:57.086195+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=155ms status=200 bytes=370343
+2013-12-19T17:29:56.892536+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=27ms status=200 bytes=286138
+2013-12-19T17:29:56.474478+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=19ms service=32ms status=200 bytes=322035
+2013-12-19T17:29:55.091298+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=19ms service=134ms status=200 bytes=6396
+2013-12-19T17:37:38.745267+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-19 17:37:38 +0000
+2013-12-19T17:37:38.749152+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T17:37:38.753050+00:00 app[web.1]:   Parameters: {"user"=>"rafael_noronha", "ordering"=>"3,4,5,0,6,2,1,8,7,9", "success"=>"[object Object]"}
+2013-12-19T17:37:38.753354+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T17:37:38.772398+00:00 app[web.1]: Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 16.0ms)
+2013-12-19T17:37:38.795425+00:00 heroku[router]: at=info method=POST path=/answers host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=6ms service=117ms status=200 bytes=20
+2013-12-19T17:54:42.824844+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T17:54:42.819570+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 17:54:42 +0000
+2013-12-19T17:54:42.829638+00:00 app[web.1]: Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+2013-12-19T17:54:42.826455+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (1.0ms)
+2013-12-19T17:54:43.555337+00:00 heroku[router]: at=info method=GET p
+ath=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=119ms status=200 bytes=321399
+2013-12-19T17:54:44.723159+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=31ms status=200 bytes=322035
+2013-12-19T17:54:44.934453+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=30ms status=200 bytes=286138
+2013-12-19T17:54:44.917343+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=157ms status=200 bytes=224186
+2013-12-19T17:54:45.110872+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=56ms status=200 bytes=370343
+2013-12-19T17:54:42.832943+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=22ms status=200 bytes=6396
+2013-12-19T17:54:43.418838+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=12ms status=200 bytes=566
+2013-12-19T17:54:44.916265+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=169ms status=200 bytes=415863
+2013-12-19T17:54:43.557810+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=127ms status=200 bytes=227418
+2013-12-19T17:54:44.050776+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=37ms status=200 bytes=324853
+2013-12-19T17:54:43.547981+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=130ms status=200 bytes=305736
+2013-12-19T17:54:43.536105+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=123ms status=200 bytes=368650
+2013-12-19T18:10:47.774181+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 18:10:47 +0000
+2013-12-19T18:10:47.792981+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T18:10:47.809674+00:00 app[web.1]: Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+2013-12-19T18:10:47.807946+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (4.0ms)
+2013-12-19T18:10:47.816006+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=51ms status=200 bytes=6396
+2013-12-19T18:10:48.227784+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=106ms status=200 bytes=326080
+2013-12-19T18:10:48.246312+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=121ms status=200 bytes=227418
+2013-12-19T18:10:48.580041+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=39ms status=200 bytes=324853
+2013-12-19T18:10:49.053952+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=57ms status=200 bytes=322035
+2013-12-19T18:10:49.397324+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=21ms service=94ms status=200 bytes=286138
+2013-12-19T18:10:49.572300+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=18ms service=75ms status=200 bytes=370343
+2013-12-19T18:10:51.887497+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=12ms status=200 bytes=0
+2013-12-19T18:11:01.323382+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 18:11:01 +0000
+2013-12-19T18:11:01.330706+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T18:11:01.343006+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (0.8ms)
+2013-12-19T18:11:01.343839+00:00 app[web.1]: Completed 200 OK in 13ms (Views: 2.0ms | ActiveRecord: 7.2ms)
+2013-12-19T18:11:01.347678+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=42ms status=200 bytes=3082
+2013-12-19T18:11:01.813728+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=33ms status=200 bytes=0
+2013-12-19T18:10:48.240470+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=107ms status=200 bytes=368650
+2013-12-19T18:10:48.001983+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=13ms status=200 bytes=566
+2013-12-19T18:10:48.362899+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=27ms service=203ms status=200 bytes=321399
+2013-12-19T18:10:48.275670+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=8ms service=41ms status=200 bytes=305736
+2013-12-19T18:20:26+00:00 heroku[slug-compiler]: Slug compilation started
+2013-12-19T18:20:58.104630+00:00 heroku[api]: Deploy 9f841e3 by raphael.sm86@gmail.com
+2013-12-19T18:20:58.134729+00:00 heroku[api]: Release v16 created by raphael.sm86@gmail.com
+2013-12-19T18:20:58+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-12-19T18:20:58.519652+00:00 heroku[web.1]: State changed from up to starting
+2013-12-19T18:21:01.145040+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T18:21:01.720882+00:00 app[web.1]: [2013-12-19 18:21:01] FATAL SignalException: SIGTERM
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T18:21:01.720882+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T18:21:01.721074+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T18:21:01.721074+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T18:21:01.721074+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T18:21:01.721074+00:00 app[web.1]: [2013-12-19 18:21:01] INFO  going to shutdown ...
+2013-12-19T18:21:01.721074+00:00 app[web.1]: [2013-12-19 18:21:01] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T18:21:01.721074+00:00 app[web.1]: Exiting
+2013-12-19T18:21:02.249726+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 59624`
+2013-12-19T18:21:03.347970+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T18:21:04.152103+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T18:21:04.152103+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T18:21:04.750146+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T18:21:04.750146+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T18:21:04.750146+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:59624
+2013-12-19T18:21:04.750146+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T18:21:04.750146+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T18:21:04.778502+00:00 app[web.1]: [2013-12-19 18:21:04] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T18:21:04.778868+00:00 app[web.1]: [2013-12-19 18:21:04] INFO  WEBrick::HTTPServer#start: pid=2 port=59624
+2013-12-19T18:21:04.778502+00:00 app[web.1]: [2013-12-19 18:21:04] INFO  WEBrick 1.3.1
+2013-12-19T18:21:06.885873+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 18:21:06 +0000
+2013-12-19T18:21:08.685840+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T18:21:08.797569+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (2.7ms)
+2013-12-19T18:21:08.799652+00:00 app[web.1]: Completed 200 OK in 114ms (Views: 10.9ms | ActiveRecord: 77.2ms)
+2013-12-19T18:21:08.807132+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=1934ms status=200 bytes=4350
+2013-12-19T18:21:09.206059+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=90ms status=200 bytes=305736
+2013-12-19T18:21:09.214384+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=58ms status=200 bytes=321399
+2013-12-19T18:21:09.249226+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=112ms status=200 bytes=29574
+2013-12-19T18:21:09.275286+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=159ms status=200 bytes=415863
+2013-12-19T18:21:09.557926+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=12ms status=200 bytes=326080
+2013-12-19T18:21:08.979198+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=15ms status=200 bytes=566
+2013-12-19T18:21:10.183923+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=18ms status=200 bytes=324853
+2013-12-19T18:21:10.277027+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=53ms status=200 bytes=286138
+2013-12-19T18:21:10.203717+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=32ms status=200 bytes=224186
+2013-12-19T18:21:09.213905+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=88ms status=200 bytes=227418
+2013-12-19T18:27:07.648047+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 18:27:07 +0000
+2013-12-19T18:27:07.656349+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T18:27:07.659866+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.0ms)
+2013-12-19T18:27:07.661353+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+2013-12-19T18:27:08.047513+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=22ms status=200 bytes=227418
+2013-12-19T18:27:08.130705+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=73ms status=200 bytes=368650
+2013-12-19T18:27:08.139547+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=68ms status=200 bytes=305736
+2013-12-19T18:27:08.119583+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=65ms status=200 bytes=326080
+2013-12-19T18:27:09.254353+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=50ms status=200 bytes=415863
+2013-12-19T18:27:09.410733+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=98ms status=200 bytes=286138
+2013-12-19T18:27:08.629654+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=37ms status=200 bytes=324853
+2013-12-19T18:27:08.140243+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=49ms status=200 bytes=321399
+2013-12-19T18:27:07.666490+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=20ms status=200
+ bytes=6396
+2013-12-19T18:27:08.945520+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=28ms status=200 bytes=322035
+2013-12-19T18:27:11.053107+00:00 heroku[router]: at=info method=GET path=/favicon.ico host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=8ms status=200 bytes=0
+2013-12-19T18:27:09.380724+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=69ms status=200 bytes=224186
+2013-12-19T18:30:21+00:00 heroku[slug-compiler]: Slug compilation started
+2013-12-19T18:30:43+00:00 heroku[slug-compiler]: Slug compilation finished
+2013-12-19T18:30:44.682604+00:00 heroku[web.1]: State changed from up to starting
+2013-12-19T18:30:48.193263+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2013-12-19T18:30:48.429505+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 28143`
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:160:in `start'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: [2013-12-19 18:30:48] FATAL SignalException: SIGTERM
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `select'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:170:in `block in start'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/ruby-2.0.0/lib/ruby/2.0.0/webrick/server.rb:32:in `start'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands/server.rb:70:in `start'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:55:in `block in <top (required)>'
+2013-12-19T18:30:48.806116+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+2013-12-19T18:30:48.806310+00:00 app[web.1]: 	/app/vendor/bundle/ruby/2.0.0/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+2013-12-19T18:30:48.806310+00:00 app[web.1]: 	script/rails:6:in `require'
+2013-12-19T18:30:48.806310+00:00 app[web.1]: 	script/rails:6:in `<main>'
+2013-12-19T18:30:48.806310+00:00 app[web.1]: [2013-12-19 18:30:48] INFO  going to shutdown ...
+2013-12-19T18:30:48.806310+00:00 app[web.1]: [2013-12-19 18:30:48] INFO  WEBrick::HTTPServer#start done.
+2013-12-19T18:30:48.806310+00:00 app[web.1]: Exiting
+2013-12-19T18:30:50.101066+00:00 heroku[web.1]: Process exited with status 143
+2013-12-19T18:30:52.723550+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T18:30:52.724408+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2013-12-19T18:30:53.476675+00:00 app[web.1]: => Booting WEBrick
+2013-12-19T18:30:53.476675+00:00 app[web.1]: => Rails 3.2.13 application starting in production on http://0.0.0.0:28143
+2013-12-19T18:30:53.476675+00:00 app[web.1]: => Call with -d to detach
+2013-12-19T18:30:53.476675+00:00 app[web.1]: => Ctrl-C to shutdown server
+2013-12-19T18:30:53.476675+00:00 app[web.1]: Connecting to database specified by DATABASE_URL
+2013-12-19T18:30:53.513160+00:00 app[web.1]: [2013-12-19 18:30:53] INFO  WEBrick 1.3.1
+2013-12-19T18:30:53.513160+00:00 app[web.1]: [2013-12-19 18:30:53] INFO  ruby 2.0.0 (2013-11-22) [x86_64-linux]
+2013-12-19T18:30:53.513562+00:00 app[web.1]: [2013-12-19 18:30:53] INFO  WEBrick::HTTPServer#start: pid=2 port=28143
+2013-12-19T18:31:19.459490+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 18:31:19 +0000
+2013-12-19T18:31:19.578328+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T18:31:19.687174+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (3.4ms)
+2013-12-19T18:31:19.689709+00:00 app[web.1]: Completed 200 OK in 111ms (Views: 12.9ms | ActiveRecord: 60.7ms)
+2013-12-19T18:31:19.715417+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=54ms service=266ms status=200 bytes=3925
+2013-12-19T18:31:20.097067+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=21ms status=200 bytes=305736
+2013-12-19T18:31:21.075614+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=60ms status=200 bytes=326080
+2013-12-19T18:31:21.325373+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=21ms status=200 bytes=324853
+2013-12-19T18:31:21.970714+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=46ms status=200 bytes=224186
+2013-12-19T18:31:21.976002+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=53ms status=200 bytes=368650
+2013-12-19T18:31:21.650843+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=28ms service=379ms status=200 bytes=322035
+2013-12-19T18:31:50.214999+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 18:31:50 +0000
+2013-12-19T18:31:50.234680+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T18:31:50.297454+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (2.2ms)
+2013-12-19T18:31:50.306838+00:00 app[web.1]: Completed 200 OK in 72ms (Views: 29.8ms | ActiveRecord: 11.5ms)
+2013-12-19T18:31:50.514696+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=8ms status=304 bytes=0
+2013-12-19T18:31:50.492415+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=13ms status=304 bytes=0
+2013-12-19T18:31:50.537707+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=19ms service=42ms status=304 bytes=0
+2013-12-19T18:31:50.668188+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=24ms status=304 bytes=0
+2013-12-19T18:31:50.315483+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=110ms status=304 bytes=0
+2013-12-19T18:31:50.737708+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=25ms status=304 bytes=0
+2013-12-19T18:31:50.781627+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=79ms status=304 bytes=0
+2013-12-19T18:31:50.825736+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=10ms status=304 bytes=0
+2013-12-19T18:31:50.835498+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=12ms status=304 bytes=0
+2013-12-19T18:31:50.857043+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=9ms service=69ms status=304 bytes=0
+2013-12-19T18:31:59.808707+00:00 app[web.1]: Started GET "/" for 187.75.203.130 at 2013-12-19 18:31:59 +0000
+2013-12-19T18:31:59.810979+00:00 app[web.1]: Processing by HomeController#index as HTML
+2013-12-19T18:31:59.814480+00:00 app[web.1]:   Rendered home/index.html.erb within layouts/application (2.1ms)
+2013-12-19T18:31:59.815810+00:00 app[web.1]: Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+2013-12-19T18:31:59.825805+00:00 heroku[router]: at=info method=GET path=/ host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=21ms status=200 bytes=6396
+2013-12-19T18:32:00.274495+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=27ms status=200 bytes=368650
+2013-12-19T18:32:00.343910+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=7ms service=63ms status=200 bytes=326080
+2013-12-19T18:32:00.350981+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=56ms status=200 bytes=305736
+2013-12-19T18:32:00.985383+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=25ms status=200 bytes=324853
+2013-12-19T18:32:00.203691+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=21ms status=200 bytes=227418
+2013-12-19T18:32:01.686730+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=48ms status=200 bytes=224186
+2013-12-19T18:31:51.140575+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=46ms service=69ms status=304 bytes=0
+2013-12-19T18:31:20.213907+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=18ms service=134ms status=200 bytes=227418
+2013-12-19T18:31:22.011953+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=18ms service=152ms status=200 bytes=370343
+2013-12-19T18:31:21.075905+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=64ms status=200 bytes=286138
+2013-12-19T18:30:54.224597+00:00 heroku[web.1]: State changed from starting to up
+2013-12-19T18:30:42.839386+00:00 heroku[api]: Deploy f746adf by raphael.sm86@gmail.com
+2013-12-19T18:30:42.866509+00:00 heroku[api]: Release v17 created by raphael.sm86@gmail.com
+2013-12-19T18:31:50.669149+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=18ms status=304 bytes=0
+2013-12-19T18:31:50.504359+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=22ms status=304 bytes=0
+2013-12-19T18:31:50.548877+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=28ms service=50ms status=304 bytes=0
+2013-12-19T18:32:01.267410+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=28ms status=200 bytes=322035
+2013-12-19T18:32:01.583868+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=32ms status=200 bytes=415863
+2013-12-19T18:32:00.246537+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=4ms service=7ms status=200 bytes=29574
+2013-12-19T18:33:41.523428+00:00 app[web.1]: Started POST "/answers" for 187.75.203.130 at 2013-12-19 18:33:41 +0000
+2013-12-19T18:33:41.537245+00:00 app[web.1]: WARNING: Can't verify CSRF token authenticity
+2013-12-19T18:33:41.536630+00:00 app[web.1]: Processing by HomeController#save_answer as */*
+2013-12-19T18:33:41.536730+00:00 app[web.1]:   Parameters: {"user"=>"juliano_alves", "ordering"=>"3,0,6,1,2,4,5,8,9,7", "success"=>"[object Object]"}
+2013-12-19T18:33:41.591965+00:00 app[web.1]: Completed 200 OK in 55ms (Views: 0.4ms | ActiveRecord: 34.0ms)
+2013-12-19T18:33:59.728092+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 18:33:59 +0000
+2013-12-19T18:33:59.735395+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T18:33:59.776599+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=55ms status=200 bytes=3864
+2013-12-19T18:33:59.768299+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (5.0ms)
+2013-12-19T18:33:59.771201+00:00 app[web.1]: Completed 200 OK in 36ms (Views: 8.7ms | ActiveRecord: 3.7ms)
+2013-12-19T18:33:59.969060+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=5ms status=304 bytes=0
+2013-12-19T18:34:00.085455+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-19T18:34:00.104844+00:00 heroku[router]: at=info method=GET path=/assets/motiv_1-5f171ec802c9762e4d87eccd608985ec.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=7ms status=304 bytes=0
+2013-12-19T18:34:00.254839+00:00 heroku[router]: at=info method=GET path=/assets/motiv_2-d6c8cd604943c121ee5b49eedc8b8837.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=6ms service=18ms status=304 bytes=0
+2013-12-19T18:34:00.301075+00:00 heroku[router]: at=info method=GET path=/assets/motiv_5-fdf630ae6bc516db0a14e68ec8a3724c.png host=cha
+mpsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=6ms status=304 bytes=0
+2013-12-19T18:34:00.348075+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=6ms status=304 bytes=0
+2013-12-19T18:34:00.364454+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=7ms status=304 bytes=0
+2013-12-19T18:34:00.177622+00:00 heroku[router]: at=info method=GET path=/assets/motiv_7-5337a2cdbb18871f89f56ca756476941.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=13ms service=19ms status=304 bytes=0
+2013-12-19T18:34:21.912775+00:00 app[web.1]: Started GET "/company_motivators" for 187.75.203.130 at 2013-12-19 18:34:21 +0000
+2013-12-19T18:34:21.915286+00:00 app[web.1]: Processing by HomeController#company_motivators as HTML
+2013-12-19T18:34:21.925603+00:00 app[web.1]:   Rendered home/company_motivators.html.erb within layouts/application (1.7ms)
+2013-12-19T18:34:21.959393+00:00 app[web.1]: Completed 200 OK in 44ms (Views: 35.7ms | ActiveRecord: 3.5ms)
+2013-12-19T18:34:22.300254+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=10ms status=304 bytes=0
+2013-12-19T18:34:22.368469+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=0ms service=14ms status=304 bytes=0
+2013-12-19T18:34:22.381645+00:00 heroku[router]: at=info method=GET path=/assets/motiv_3-25b0ef7957906d288dd82fdcc5cdea95.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=8ms status=304 bytes=0
+2013-12-19T18:34:22.542287+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=9ms service=10ms status=304 bytes=0
+2013-12-19T18:34:00.263933+00:00 heroku[router]: at=info method=GET path=/assets/motiv_9-2248cdc801febb94ff7ca36521358473.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=5ms status=304 bytes=0
+2013-12-19T18:34:00.177331+00:00 heroku[router]: at=info method=GET path=/assets/application-bcf29026dbea065877c1461df1469a9f.js host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=2ms service=6ms status=304 bytes=0
+2013-12-19T18:35:02.261051+00:00 heroku[api]: Starting process with command `logs` by raphael.sm86@gmail.com
+2013-12-19T18:34:00.443086+00:00 heroku[router]: at=info method=GET path=/assets/motiv_8-9d0ab31ad3820c6f6b7418565b98628c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=7ms status=304 bytes=0
+2013-12-19T18:35:12.047738+00:00 heroku[run.3381]: Awaiting client
+2013-12-19T18:35:12.104061+00:00 heroku[run.3381]: Starting process with command `logs`
+2013-12-19T18:35:14.995499+00:00 heroku[run.3381]: State changed from up to complete
+2013-12-19T18:35:14.978731+00:00 heroku[run.3381]: Process exited with status 127
+2013-12-19T18:34:00.187987+00:00 heroku[router]: at=info method=GET path=/assets/motiv_4-006d7c64df0f2253d6f25b71e9d1be62.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=16ms service=31ms status=304 bytes=0
+2013-12-19T18:34:22.216695+00:00 heroku[router]: at=info method=GET path=/assets/motiv_6-503b7c8302c747ad9da356009b091efa.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=25ms status=304 bytes=0
+2013-12-19T18:34:22.184061+00:00 heroku[router]: at=info method=GET path=/assets/application-ea34d04805797a9770a3901226c9f556.css host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=5ms service=12ms status=304 bytes=0
+2013-12-19T18:35:11.564891+00:00 heroku[run.3381]: State changed from starting to up
+2013-12-19T18:34:21.961393+00:00 heroku[router]: at=info method=GET path=/company_motivators host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=3ms service=52ms status=304 bytes=0
+2013-12-19T18:34:22.148030+00:00 heroku[router]: at=info method=GET path=/assets/champ_frog-48da7893fa481d72ca45281dfbed5d4c.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=13ms status=304 bytes=0
+2013-12-19T18:34:22.411498+00:00 heroku[router]: at=info method=GET path=/assets/motiv_10-10a62b752a92bf112b0b541c70ee40af.png host=champsl3.herokuapp.com fwd="187.75.203.130" dyno=web.1 connect=1ms service=38ms status=304 bytes=0

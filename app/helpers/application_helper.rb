@@ -21,7 +21,8 @@ module ApplicationHelper
       'Vanessa Chagas',
       'Vanessa D\'Aguiar',
       'Vinicius Moura',
-      'Claudio Kerber'
+      'Claudio Kerber',
+      'Henrique Smoco'
     ].sort
     
   end
