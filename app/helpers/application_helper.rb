@@ -22,7 +22,8 @@ module ApplicationHelper
       'Vanessa D\'Aguiar',
       'Vinicius Moura',
       'Claudio Kerber',
-      'Henrique Smoco'
+      'Henrique Smoco',
+      'Abner das Dores'
     ].sort
     
   end
