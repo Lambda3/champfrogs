@@ -20,6 +20,7 @@ class HomeController < ApplicationController
       inject({}, &average_points).
       to_a.
       sort { |item1, item2| item1.last <=> item2.last }
+    @already_answered = Answer.all.map(&:user)
   end
 
 end
