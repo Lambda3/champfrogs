@@ -15,10 +15,11 @@ module ApplicationHelper
       'Victor Hugo Germano',
       'Giovanni Bassi',
       'Vinicius Hana',
+      'Roberto Rodriguês',
       'Igor Abade',
       'Sabrina Maciel',
-      'Fabio Cardim',
       'Vanessa Chagas',
+      'Vanessa D\'Aguiar',
       'Vinicius Moura',
       'Claudio Kerber'
     ].sort
