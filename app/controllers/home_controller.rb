@@ -2,7 +2,6 @@ class HomeController < ApplicationController
 
   def index
     
-
   end
   
   def save_answer
@@ -21,6 +20,15 @@ class HomeController < ApplicationController
       to_a.
       sort { |item1, item2| item1.last <=> item2.last }
     @already_answered = Answer.all.map(&:user)
+  end
+
+  def like_me
+    data = Answer.all.to_a
+    my_answer = data.select { |i| i.user == params[:user] }.first    
+    @result = (data - [my_answer]).
+      map { |item| { item => item.distance(my_answer) } }.
+      sort { |item1, item2| item1.values.first <=> item2.values.first}
+    puts @result.map{ |item| "#{item.keys.first.user} => #{item.values.first}"}.join("<br>")
   end
 
 end

@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h1>Lista de Maiores Afinidades</h1>
+  <p class="lead"></p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-16">
+		 <ul>
+		  <% @result.each do |hash| %>
+		  <li>
+			  <%= hash.keys.first.user %> (<%= hash.values.first %>)
+		  </li>
+		  <% end %>
+	 	 </ul>
+	  </div>
+    </div>
+  </div>
+</div>
