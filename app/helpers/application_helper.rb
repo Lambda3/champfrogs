@@ -20,7 +20,8 @@ module ApplicationHelper
       'Fabio Cardim',
       'Vanessa Chagas',
       'Vinicius Moura',
-      'Claudio Kerber'
+      'Claudio Kerber',
+      'Rafael Camargo'
     ].sort
     
   end
