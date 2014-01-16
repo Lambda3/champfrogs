@@ -31,17 +31,16 @@ class HomeController < ApplicationController
     puts @result.map{ |item| "#{item.keys.first.user} => #{item.values.first}"}.join("<br>")
   end
   
-  def biggest_matches
+  def best_matches
     all = Answer.all.to_a
-    biggest = all.map do |item| 
+    @best_matches = all.map do |item| 
       matches = (all - [item]).inject({}) do |r, answer| 
         r["#{item.user} => #{answer.user}"] = item.distance(answer)
         r
       end
-      best_matches = matches.values.min
-      matches.select { |k,v| v == best_matches }
+      min_val = matches.values.min
+      matches.select { |k,v| v == min_val }
     end.sort { |item1, item2| item1.values.min <=> item2.values.min }
-    render :text => biggest.to_json
   end
 
 end
