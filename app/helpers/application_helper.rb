@@ -29,4 +29,8 @@ module ApplicationHelper
     
   end
 
+  def show_name sym
+    sym.to_s.split("_").map { |i| i.capitalize }.join(" ")
+  end
+  
 end

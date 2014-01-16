@@ -5,11 +5,17 @@
 
   <div class="container">
     <div class="row">
+		<p>
+			A lista é composta por 3 informações:
+		</p>
+		<p style="margin-left: 60px">
+			(índice de compatibilidade) nome da pessoa => pessoa(s) com maior afinidade
+		</p>
       <div class="col-lg-16">
 		 <ul id="ranking">
 		  <% @best_matches.each do |match| %>
 		  <li>
-			  (<%= match.values.min %>) <%= match.keys.first.split(" => ").first %> => <%= match.keys.map { |i| i.split(" => ").last }.join (", ") %>
+			  (<%= match.values.min %>) <%= show_name match.keys.first.split(" => ").first %> => <%=  match.keys.map { |i| show_name i.split(" => ").last }.join (", ") %>
 		  </li>
 		  <% end %>
 	 	 </ul>
