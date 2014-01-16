@@ -30,5 +30,18 @@ class HomeController < ApplicationController
       sort { |item1, item2| item1.values.first <=> item2.values.first}
     puts @result.map{ |item| "#{item.keys.first.user} => #{item.values.first}"}.join("<br>")
   end
+  
+  def biggest_matches
+    all = Answer.all.to_a
+    biggest = all.map do |item| 
+      matches = (all - [item]).inject({}) do |r, answer| 
+        r["#{item.user} => #{answer.user}"] = item.distance(answer)
+        r
+      end
+      best_matches = matches.values.min
+      matches.select { |k,v| v == best_matches }
+    end.sort { |item1, item2| item1.values.min <=> item2.values.min }
+    render :text => biggest.to_json
+  end
 
 end
