@@ -24,6 +24,7 @@ module ApplicationHelper
       'Claudio Kerber',
       'Henrique Smoco',
       'Abner Das Dores'
+      'Rafael Camargo'
     ].sort
     
   end
