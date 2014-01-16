@@ -23,7 +23,7 @@ module ApplicationHelper
       'Vinicius Moura',
       'Claudio Kerber',
       'Henrique Smoco',
-      'Abner Das Dores'
+      'Abner Das Dores',
       'Rafael Camargo'
     ].sort
     
